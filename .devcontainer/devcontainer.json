@@ -4,17 +4,21 @@
     
     // Use 'settings' to set *default* container specific settings.json values on container create. 
     "settings": {
-    "terminal.integrated.shell.linux": "/bin/bash"
+        "terminal.integrated.shell.linux": "/bin/bash"
     },
     
     // Add the IDs of extensions you want installed when the container is created in the array below.
     "extensions": [
-    "dbaeumer.vscode-eslint",
-    "humao.rest-client"
+        "dbaeumer.vscode-eslint",
+        "humao.rest-client",
+        "ms-python.python"
+    ],
+    "runArgs": [
+        "--gpus=all"
     ],
     
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
-    "forwardPorts": [3000],
+    "forwardPorts": [8888],
     
     // Specifies a command that should be run after the container has been created.
     //"postCreateCommand": "yarn install",
