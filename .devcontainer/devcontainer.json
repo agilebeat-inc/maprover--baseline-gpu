@@ -14,8 +14,9 @@
         "humao.rest-client"
     ],
     "runArgs": [
-        "--gpus",
-        "all"
+        "--name", "tensorflow-gpu-vsc",
+        "--gpus", "all",
+        "--rm"
     ],
     
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
