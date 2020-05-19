@@ -1,5 +1,5 @@
 {
-    "name": "TensorflowJS lambda env",
+    "name": "anaconda-tensorflow2-gpu",
     "dockerFile": "Dockerfile",
     
     // Use 'settings' to set *default* container specific settings.json values on container create. 
@@ -9,12 +9,13 @@
     
     // Add the IDs of extensions you want installed when the container is created in the array below.
     "extensions": [
+        "ms-python.python",
         "dbaeumer.vscode-eslint",
-        "humao.rest-client",
-        "ms-python.python"
+        "humao.rest-client"
     ],
     "runArgs": [
-        "--gpus=all"
+        "--gpus",
+        "all"
     ],
     
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
