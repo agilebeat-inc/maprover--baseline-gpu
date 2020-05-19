@@ -42,4 +42,3 @@ RUN apt-get clean && \
 
 # Port
 EXPOSE 8888
-EXPOSE 6006 
