@@ -1,4 +1,5 @@
-FROM tensorflow/tensorflow:latest-gpu-jupyter
+#FROM tensorflow/tensorflow:latest-gpu-jupyter 
+FROM tensorflow/tensorflow
 LABEL maintainer Marek Dwulit<Marek.Dwulit@agilebeat.com>”
 
 RUN pip install pylint Keras
