@@ -3,7 +3,7 @@
 ### Building developing environment in Visual Studio Code
 * Open working directory in visual studio. 
 * The default working directory is `/home/user`. To change default working directory path, set "terminal.integrated.shell.linux" under "settings" in `.devcontainer/devcontainer.json`.
-* **Environment**: python 3.6, tnesorflow, tensorflow-gpu, Keras, and Jupyter Noteboolk
+* **Environment**: python 3.6, tnesorflow, tensorflow-gpu, Keras, and Jupyter Notebook
 
 ### Sources
 
